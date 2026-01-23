@@ -1,0 +1,14 @@
+.grid-container {
+    display: grid;
+    /* Створюємо 2 колонки однакової ширини */
+    grid-template-columns: repeat(2, 1fr);
+    /* Відстань між картками */
+    gap: 20px;
+    padding: 20px;
+}
+.user-block{
+    border: 1px solid #ccc;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 8px;
+}
